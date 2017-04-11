@@ -10,7 +10,7 @@
 - console.log(typeof [])//'object'
 - console.log(typeof unknownVariable) //'undefined'
 ### Typeof存在的问题
-- 在使用 typeof 运算符时采用引用类型存储值会出现一个问题，无论引用的是什么类型的对象，它都返回 "object"。
+- 在使用 typeof 运算符时采用引用类型存储值会出现一个问题，无论引用的是什么类型的对象（[] {} ），它都返回 "object"。
 ## toString.call
 - console.log(toString.call(123)) //[object Number]
 - console.log(toString.call('123')) //[object String]
